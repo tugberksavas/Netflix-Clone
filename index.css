@@ -14,7 +14,8 @@ header{
 
 img.logo{
     padding: 10px 0 0 10px;
-    height: 80px;
+    height: 4rem;
+    margin-bottom: 1rem;
 }
 
 nav{
@@ -42,8 +43,9 @@ nav a:hover {
 }
 
 img.profile{
-    width: 50px;
+    width: 3rem;
     border-radius: 100px;
+    margin-right: 0.5rem;
 }
 
  /* Main */ 
