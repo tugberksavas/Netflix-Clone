@@ -226,7 +226,18 @@ footer nav a:hover {
 
 
 @media screen and (max-width: 992px){
-    
+    header {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+
+    header nav{
+        margin: .5rem ;
+        order:3;
+        flex-grow: 1;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -266,4 +277,10 @@ footer nav a:hover {
         justify-content: flex-start;
         padding-bottom: 2rem;
     }
+}
+
+@media screen and (max-width: 500px){
+   header {
+    flex-direction: column;
+   }
 }
