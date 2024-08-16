@@ -1,5 +1,5 @@
 body{
-    padding: 0;
+    padding: 0 1rem;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,7 +23,7 @@ nav{
     gap: 1rem;
 }
 
-header nav a {
+nav a {
     color: black;
     text-decoration: none;
 }
@@ -54,8 +54,6 @@ img.profile{
 
  /* Main */ 
  main{
-    width: 94%;
-    margin: auto;
     border: 1px solid red;
     padding: 1rem;
     aspect-ratio: 16/9;
@@ -67,12 +65,24 @@ img.profile{
     background-position: center;
  }
 
+ .movie-info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+ }
+
  .user-ratings {
     display: inline-block;
  }
 
  .user-rating i {
     color: red;
+ }
+
+ .maturity-rating{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .2rem;
  }
 
  .movie-description {
@@ -102,3 +112,112 @@ img.profile{
     display: inline-block;
     padding: .5rem 1rem;
  }
+
+ .btn-lg{
+    padding: .6rem 1rem;
+ }
+
+ .btn-md{
+    padding: .5rem .9rem;
+    font-size: .9em;
+ }
+
+ /* suggestion  */
+
+ .suggestion-row{
+    margin: 2rem auto;
+    
+ }
+
+.suggestion-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-title h2 {
+    font-size: 1.3rem;
+}
+
+.suggestion-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.suggestion-title a:hover{
+    color: red;
+}
+
+.suggestion-item{
+    border: 1px solid black;
+    width: 25%;
+    padding: .8rem;
+    display: flex;
+    align-items: flex-end;
+    aspect-ratio: 16/9;
+}
+
+.suggestion-item-content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.suggestion-item-content h3{
+    margin: 0 .2rem;
+}
+
+.suggestion-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.copyright{
+    margin-top: 1rem;
+}
+
+footer > div > p {
+    margin-top: 0;
+}
+
+.social-media-links div {
+    display: flex;
+    gap: .5rem;
+    padding-top: 1rem;
+}
+
+.fa-square-facebook{
+    color: #1877F2;
+}
+
+.fa-square-youtube{
+    color: red;
+}
+
+
+.app-store-links div {
+    display: flex;
+    gap: .5rem;
+}
+
+.app-store-links img {
+    max-width: 100px;
+}
+
+footer nav a {
+    color: red;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: black;
+    text-decoration: line-through;
+}
