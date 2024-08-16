@@ -34,7 +34,7 @@ nav a:hover {
 .search {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: .9rem;
 }
 
 .search input {
@@ -45,3 +45,50 @@ img.profile{
     width: 50px;
     border-radius: 100px;
 }
+
+ /* Main */ 
+ main{
+    width: 94%;
+    margin: auto;
+    border: 1px solid red;
+    padding: 1rem;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+ }
+
+ .user-ratings {
+    display: inline-block;
+ }
+
+ .user-rating i {
+    color: red;
+ }
+
+ .movie-description {
+    width: 60%;
+    line-height: 130%;
+ }
+
+ .movie-details {
+    padding-left: 0;
+    
+ }
+
+ .movie-details li{
+    list-style-type: none;
+    margin-bottom: .5rem;
+ }
+
+ .movie-details span{
+    font-weight: bold;
+    color: red;
+ }
+
+ .btn {
+    border-radius: .5rem;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: .5rem 1rem;
+ }
